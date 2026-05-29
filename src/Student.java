@@ -1,12 +1,24 @@
 public class Student {
 
 
-    String name;
+
     int id;
+    String name;
+    int age;
+    String city;
 
-
-    public Student(String name, int id) {
+    public Student(int id, String name, int age, String city) {
+        this.id = id;
         this.name = name;
+        this.age = age;
+        this.city = city;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -18,11 +30,19 @@ public class Student {
         this.name = name;
     }
 
-    public int getId() {
-        return id;
+    public int getAge() {
+        return age;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 }
