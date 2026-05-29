@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62c9b723-fbbf-47ee-a2c7-56fed2fff22f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="62c9b723-fbbf-47ee-a2c7-56fed2fff22f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +92,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,7 +106,7 @@
       <workItem from="1779412394176" duration="2981000" />
       <workItem from="1780011387194" duration="680000" />
       <workItem from="1780012528776" duration="334000" />
-      <workItem from="1780013665151" duration="620000" />
+      <workItem from="1780013665151" duration="1102000" />
     </task>
     <servers />
   </component>
