@@ -6,12 +6,15 @@ public class Student {
     String name;
     int age;
     String city;
+    char section;
 
-    public Student(int id, String name, int age, String city) {
+
+    public Student(int id, String name, int age, String city,char section) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.city = city;
+        this.section=section;
     }
 
     public int getId() {
@@ -44,5 +47,13 @@ public class Student {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public char getSection() {
+        return section;
+    }
+
+    public void setSection(char section) {
+        this.section = section;
     }
 }
