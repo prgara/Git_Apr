@@ -10,3 +10,6 @@ public class Teacher {
         this.salary = salary;
     }
 }
+
+
+ncdjkheknvenf
