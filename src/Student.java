@@ -1,5 +1,7 @@
-public class Student {
 
+public class Student{
+    String subject;
+    String section;
 
 
     int id;
@@ -29,24 +31,22 @@ public class Student {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
     }
 
-    public int getAge() {
-        return age;
+    public String getSubject() {
+        return subject;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setSubject(String subject) {
+        this.subject = subject;
     }
 
-    public String getCity() {
-        return city;
+    public String getSection() {
+        return section;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setSection(String section) {
+        this.section = section;
     }
 
     public char getSection() {
