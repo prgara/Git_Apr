@@ -1,48 +1,29 @@
-public class Student {
+
+public class Student{
+    String subject;
+    String section;
 
 
 
-    int id;
-    String name;
-    int age;
-    String city;
+    public Student(String section, String subject) {
+        this.section = section;
+        this.subject = subject;
 
-    public Student(int id, String name, int age, String city) {
-        this.id = id;
-        this.name = name;
-        this.age = age;
-        this.city = city;
     }
 
-    public int getId() {
-        return id;
+    public String getSubject() {
+        return subject;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setSubject(String subject) {
+        this.subject = subject;
     }
 
-    public String getName() {
-        return name;
+    public String getSection() {
+        return section;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
+    public void setSection(String section) {
+        this.section = section;
     }
 }
