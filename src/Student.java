@@ -12,14 +12,17 @@ public class Student{
     }
 
     public String getSubject() {
+
         return subject;
     }
 
     public void setSubject(String subject) {
+
         this.subject = subject;
     }
 
     public String getSection() {
+
         return section;
     }
 
