@@ -2,6 +2,7 @@
 public class Student{
     String subject;
     String section;
+    int year;
 
 
     int id;
@@ -56,4 +57,11 @@ public class Student{
     public void setSection(char section) {
         this.section = section;
     }
+
+
+public static void main(String[] args) {
+    Student student= new Student();
+    student.year=2026;
+    System.out.println("New changes");
+}
 }
